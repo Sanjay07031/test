@@ -35,4 +35,4 @@ class RegistrationForm(UserCreationForm):
 class ProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile
-        fields=('picture', 'bio', 'phone', 'website', 'address')
+        fields=('picture', 'bio', 'mobile', 'website', 'address')
