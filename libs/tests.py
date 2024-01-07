@@ -14,7 +14,7 @@ class TestMixin:
 
     def _create_user(self, username, password):
         """ Creates a user """
-        user = User.objects.create(username=username, email='john@test.com')
+        user = User.objects.create(username=username, email='john@test4.com')
         user.set_password(password)
         user.save()
         return user
